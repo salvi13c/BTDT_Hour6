@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".QuizSplashActivity" >
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="181dp"
+        app:srcCompat="@drawable/mclogo3" />
+
+    <Button
+        android:id="@+id/game"
+        android:layout_width="match_parent"
+        android:layout_height="89dp"
+        android:background="#536DFE"
+        android:onClick="openActivityGame"
+        android:shadowColor="#002E0E0E"
+        android:text=" Start game" />
+
+    <Button
+        android:id="@+id/Scores"
+        android:layout_width="match_parent"
+        android:layout_height="89dp"
+        android:background="#536DFE"
+        android:onClick="openActivityScores"
+        android:text="Scores" />
+
+    <Button
+        android:id="@+id/settings"
+        android:layout_width="match_parent"
+        android:layout_height="89dp"
+        android:background="#536DFE"
+        android:onClick="openActivitSettings"
+        android:text="settings" />
+
+    <Button
+        android:id="@+id/Help"
+        android:layout_width="match_parent"
+        android:layout_height="89dp"
+        android:background="#536DFE"
+        android:onClick="openActivityHelp"
+        android:text="Help" />
+
+</LinearLayout>
